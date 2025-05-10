@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+
+    <form class="form">
+        <h1>Registration Form</h1>
+    <div>
+            <label>
+            First Name:
+            <input type="text" placeholder="Enter First Name" name="Firstname" />
+        </label>
+        <br />
+        <label>
+            Last Name:
+            <input type="text" placeholder="Enter Last Name" name="Lastname" />
+        </label>
+        <br />
+        <label>
+            Email:
+            <input type="email" placeholder="Enter Email Address" name="email" />
+        </label>
+        <br />
+        <label>
+            Password:
+            <input type="password" name="password" placeholder="Password" />
+        </label>
+          <br />
+        <label>
+            Age:
+            <input type="number" name="number" placeholder="Age"/>
+        </label>
+    </div>
+        <br />
+    <div>
+            <span for="gender">
+            Gender:
+        </span>
+        <br />
+      <div  class="gender-section">
+          <label >
+            Male
+            <input type="radio" name="group" id="gender" />
+        </label>
+        <br />
+        <label >
+            Female
+            <input type="radio" name="group" id="gender"/>
+        </label>
+        <br />
+        <label >
+            Other
+            <input type="radio" name="group" id="gender" />
+        </label>
+      </div>
+    </div>
+      
+        <br />
+       <div>
+         <span >
+            Prefernces:
+        </span>
+        <br />
+        <div class="checkbox-section">
+        <label>
+             Acrylic Painting
+            <input type="checkbox" name="checkbox" />
+        </label>
+        <br />
+        <label>
+            Oil Paninting
+            <input type="checkbox" name="checkbox" />
+        </label>
+        <br />
+        <label>
+            Water Color Painting
+            <input type="checkbox" name="checkbox" />
+        </label>
+       </div>
+       </div>
+        <br />
+        <!-- drop down list -->
+        <label for="selectoccupation">
+            Selcet Occupation:
+
+        </label>
+      <div class="select-section">
+          <select id="selectoccupation">
+            <option>
+                Student
+            </option>
+            <option>
+                parents
+            </option>
+            <option>
+                kid
+            </option>
+
+        </select>
+      </div>
+        <br />
+        <label for="feedback">Bio</label>
+        <textarea id="feedback" cols="30" rows="10" placeholder="share few lines about yourself..."></textarea>
+        <br />
+        <div class="button-section">
+            <button value="reset">Reset</button>
+        <button value="submit">
+            Submit
+        </button>
+    </div>
+    </form>
+
+</body>
+
+</html>
